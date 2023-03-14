@@ -1,0 +1,138 @@
+@import/ url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;500&family=Roboto:wght@400;500;700&display=swap');
+html{scroll-behavior: smooth;}
+body{
+    background-color: black;
+}
+.head{
+   
+    text-align: center;
+        color: rgb(186,186,186);
+       padding:0 30PX 30PX 30px;
+       
+       border-bottom: 1px solid rgb(83, 78, 78);
+   }
+    
+h2{
+    font-family:playfair display,serif;
+
+    font-size: 44px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 6.5px;
+    margin-bottom: 0;
+    transition: hover 0.15s;
+}
+h2:hover{
+    color: rgb(207, 78, 78);
+}
+h5{
+    font-family:opan sans,sans-serif;
+
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    margin-top: 0;
+    padding-top: 7PX;
+   
+}
+.link-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px 300px 100px 300px ;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family:opan sans,sans-serif;
+
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+   transition: hover 0.15s;
+   
+}
+a:hover{
+    color:rgb(207, 78, 78); ;
+}
+/* .info{ */
+    /* margin: 50px 150px; */
+    /* background-color: aquamarine; */
+/* } */
+h1{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: aliceblue;
+    margin-bottom: 80px;
+
+}
+.info-img{
+    /* padding-top: 200px; */
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 15px;
+    margin-left: 100px;
+    padding: 0;
+    
+}
+p{ color:rgb(122, 122, 122);
+    
+    font-family: "roboto", sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+    
+    text-align: start;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-bottom: 45px;
+    line-height: 35px;
+}
+h3{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Playfair Display", serif; 
+    font-size: 26.16px;
+    font-weight: 700;
+}
+.info-img2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+.info-img2 p{
+    display: inline-block;
+    height: 15px;
+    width: 10px;
+
+}
+footer p{ 
+    text-align: center;
+    margin-top: 200px;
+    font-family:"open sans",sans-serif ;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(156, 151, 151);
+
+
+}
+p strong{
+    color: white;
+}
+ a button{
+    height: 60px;
+    width: 60px;
+    background-color: brown;
+    border-radius: 30px
+
+} 
+
+
+ 
+  
+  
+ 
